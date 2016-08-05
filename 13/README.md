@@ -4,8 +4,12 @@
 
 ## 笔记
 
+### JS 事件监听
+
 * onlick
+
 当同一个对象使用 `.onclick` 的写法触发多个方法的时候，后一个方法会把前一个方法覆盖掉
+
 ```javascript
 window.onload = function(){ 
     var btn = document.getElementById("yuanEvent"); 
@@ -25,4 +29,5 @@ window.onload = function(){
 [MDN GlobalEventHandlers.onclick](https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers/onclick)
 
 * addEventListener
+
 [MDN EventTarget.addEventListener()](https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)
