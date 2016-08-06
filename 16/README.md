@@ -21,3 +21,9 @@ trim() 方法会删除一个字符串两端的空白字符，trim() 方法并不
 当字符串匹配到正则表达式（regular expression）时，match() 方法会提取匹配项
 
 [MDN String.prototype.match()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/match)
+
+### target 事件
+
+target 事件属性可返回事件的目标节点（触发该事件的节点），如生成事件的元素、文档或窗口
+
+[W3School target 事件属性](http://www.w3school.com.cn/jsref/event_target.asp)

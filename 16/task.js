@@ -54,7 +54,6 @@ function addBtnHandle() {
  */
 function delBtnHandle(target) {
     var tr = target.parentElement.parentElement;
-    console.log(tr);
     var strCity = tr.children[0].innerHTML;
     delete aqiData[strCity];
 
