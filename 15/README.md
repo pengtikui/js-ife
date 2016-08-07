@@ -32,3 +32,18 @@ init()
 ### sort() 方法
 
 与 task 14 相同，因为排序从小到大排列，所以改为 `return a[1] - b[1];`
+
+### Number() 对象
+
+[MDN Number](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number)
+
+* 如果参数无法被转换为数字，则返回 NaN
+* 在非构造器上下文中 (如：没有 new 操作符)，Number 能被用来执行类型转换
+
+### children 属性
+
+[MDN ParentNode.children](https://developer.mozilla.org/zh-CN/docs/Web/API/ParentNode/children)
+
+children 属性为只读属性，对象类型为 HTMLCollection
+
+可以使用 elementNodeReference.children[1].nodeName 来获取某个子元素的标签名称
