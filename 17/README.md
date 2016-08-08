@@ -15,3 +15,10 @@
 * 鼠标移动到柱状图的某个柱子时，用title属性提示这个柱子的具体日期和数据
 
 ## 笔记
+
+### 绘制柱状图
+
+采用 flex 布局，轻松实现每个柱都是等宽的并且都是底部对齐的
+
+[阮一峰 Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+[阮一峰 Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
